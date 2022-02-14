@@ -1,0 +1,56 @@
+.text-area{
+    background-color: aliceblue;
+    box-shadow: 1px 1px 10px 5px rgba(128, 128, 128, 0.11);
+    border-radius: 20px;
+    text-align: center;
+    height: 550px;
+}
+.form-control{
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.icon_text{
+    color: white;
+    padding: 8px 0px;
+}
+.navbar{
+    background:rgba(6, 6, 78, 1.0);
+}
+.nav-link{
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 34px;
+    text-transform: uppercase;
+}
+.icons a{
+    color: #fff;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+.icons a:hover{
+    color: rgb(201, 201, 201);
+}
+.first_container{
+    background-color: aliceblue;
+}
+.navbar-toggler-icon{
+color: #fff;
+}
+@media screen and (max-width:576px) {
+    .navbar-brand{
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    .icons a{
+        color: #fff;
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .icons a:hover{
+        color: rgb(201, 201, 201);
+    }
+    .icon_text{
+    display: none;
+    }
+}
